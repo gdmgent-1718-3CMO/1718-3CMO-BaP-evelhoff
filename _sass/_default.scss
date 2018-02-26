@@ -5,33 +5,192 @@ body {
     font-weight: $font-weight-base;
     font-size: $font-size-base;
     line-height: $lineheight-base;
-    background-color: $body-bg;
+    background-color: white;
     color: $body-color;
+}
+/*HOME*/
+
+.rand-home{
+    border: 3px solid $color-grey-2;
+    margin-bottom: 50px;
+}
+.typohome{
+    background-color: $geel;
+}
+.quote{
+    font-size:100px;
+    color:white;
+    font-weight: bold;
+    margin-top: -500px;
+    line-height: 94px;
+}
+.merkverhaal{
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+.merkverhaaltekst{
+    margin-bottom: 100px;
+}
+.logohome{
+    margin-top: 100px;
+}
+
+.logohometekst, .typohometekst{
+    margin-top: 90px;
+    
+}
+.typohometekst{
+    margin-top: 80px;
+    padding-left: 80px;
+    
+}
+.leesmeer{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.btn, .btn-primary{
+    color:white;
+    background-color:$geel;
+    border: none;
+    
+}
+.btn-primary:hover{
+    color:white;
+    background-color:#ff9100;
+    border: none;
+    
+}
+.kleurhome{
+    margin-left: -15px;
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: $myfont-family-base-two;
     font-family: $myfont-family-title;
     font-weight: $font-weight-bold;
 }
 
 h1 {
-    font-weight: $font-weight-light;
-    font-size: 4rem;
-    color: $color-grey-2;
+    font-weight: $font-weight-bold;
+    font-size: 50pt;
+    color: $geel;
 }
 h2 {
-    font-weight: $font-weight-light;
-    font-size: 2rem;
-    margin: 2rem 0 1rem;
+    font-weight: $font-weight-bold;
+    font-size: 35pt;
+    color: $blauw;
+    margin-bottom: 20px;
+    
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
     margin: 2rem 0 0;
 }
+
+#footer{
+    color: white;
+    background-color:$geel;
+    
+}
+
+.laatste{
+    margin-bottom: 300px;
+}
+/* logo*/
+.quote2{
+    font-size:180px;
+    color:white;
+    font-weight: bold;
+    margin-top: -350px;
+    line-height: 94px;
+    margin-bottom: 100px;
+}
+.blauwachter{
+    background-color:$blauw;
+}
+.geelachter{
+    background-color:$geel;
+}
+.zwartachter{
+    background-color: black;
+}
+hr{
+    height: 1px;
+    color:$geel;
+    margin-top: 150px;
+    margin-bottom: 200px;
+   
+}
+.grijsachter{
+    background-color:#f6f6f6;
+    padding-top: 100px;
+}
+.logo1{
+    margin-bottom: 30px;
+    }
+.logo2{
+    margin-bottom: 30px;
+    }
+.alineaonder{
+    margin-top: 200px;
+}
+.logogebruik{
+    margin-top: 50px;
+}
+.hartaanval{
+    padding-left: 90px;
+}
+.sporttas{
+    margin-top: 250px;
+}
+p{
+    line-height: 24px;
+    color: #6f6f6e;
+}
+.download{
+    margin-top: -80px;
+    margin-bottom: 300px;
+    margin-left: 430px;
+}
+/*kleur*/
+.kleurgebruik{
+    padding-top: 50px;
+    padding-left:50px;
+    padding-right:50px;
+}
+.kleurgebruiktekst{
+    margin-bottom: 50px;
+}
+.laatstekleur{
+   padding-bottom: 100px;
+}
+/*typo*/
+.typovoorgebruik{
+    margin-top: 250px;
+}
+
+/* foto */
+.uitsnedes{
+    margin-top: -250px;
+}
+.quote3{
+    font-size:80px;
+    color: white;
+    margin-top: -500px;
+}
+.foto-tekst{
+    color: white;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.fotografiemarge{
+    margin-bottom: -400px;
+}
 a {
     text-decoration: none;
     color: $body-link;
-    border-bottom: dotted 1px $body-link;
+    border-bottom: solid 1px $body-link;
     &:hover{
         color: $body-link;
         text-decoration: none;
@@ -80,8 +239,8 @@ main ol {
         padding: 3px 6px;
         margin-right: 5px;
         border-radius: 5px;
-        background-color: $mycolor-5;
-        color: $color-white;
+        /*background-color: $mycolor-5;
+        color: $color-white;*/
         font-family: $myfont-family-title;
         font-weight: $font-weight-bold;
       }    
