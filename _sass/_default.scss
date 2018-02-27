@@ -8,10 +8,10 @@ body {
     background-color: white;
     color: $body-color;
 }
-/*HOME*/
+/*HOME--------------------------------------------------------------------------------------------------------------*/
 
 .rand-home{
-    border: 3px solid $color-grey-2;
+    border: 2px solid $color-grey-2;
     margin-bottom: 50px;
 }
 .typohome{
@@ -21,11 +21,11 @@ body {
     font-size:100px;
     color:white;
     font-weight: bold;
-    margin-top: -500px;
-    line-height: 94px;
+    margin-top: -400px;
+    line-height: 84px;
 }
 .merkverhaal{
-    margin-top: 150px;
+    margin-top: 140px;
     margin-bottom: 30px;
 }
 .merkverhaaltekst{
@@ -45,7 +45,7 @@ body {
     
 }
 .leesmeer{
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 80px;
 }
 .btn, .btn-primary{
@@ -77,7 +77,7 @@ h1 {
 }
 h2 {
     font-weight: $font-weight-bold;
-    font-size: 35pt;
+    font-size: 40pt;
     color: $blauw;
     margin-bottom: 20px;
     
@@ -96,7 +96,7 @@ h3, h4, h5, h6 {
 .laatste{
     margin-bottom: 300px;
 }
-/* logo*/
+/* logo----------------------------------------------------------------------------------------------------------------------*/
 .quote2{
     font-size:180px;
     color:white;
@@ -105,21 +105,36 @@ h3, h4, h5, h6 {
     line-height: 94px;
     margin-bottom: 100px;
 }
+.leesmeerlogo{
+      margin-top: 50px;
+    margin-bottom: 80px;
+}
 .blauwachter{
     background-color:$blauw;
+    height: 300px;
+    padding-top: 50px;
 }
 .geelachter{
     background-color:$geel;
+    height: 300px;
+    padding-top: 50px;
 }
 .zwartachter{
     background-color: black;
+      height: 300px;
+    padding-top: 50px;
 }
 hr{
-    height: 1px;
+    height: 0px;
     color:$geel;
     margin-top: 150px;
     margin-bottom: 200px;
-   
+    border:none;
+    border-top:2px solid $geel;
+        
+}
+.fotowitruimte{
+    margin-top:70px;
 }
 .grijsachter{
     background-color:#f6f6f6;
@@ -127,12 +142,17 @@ hr{
 }
 .logo1{
     margin-bottom: 30px;
+    padding-top: 50px;
     }
 .logo2{
     margin-bottom: 30px;
     }
+.logo3{
+   
+    padding-top: 50px;
+    }
 .alineaonder{
-    margin-top: 200px;
+    margin-top: 110px;
 }
 .logogebruik{
     margin-top: 50px;
@@ -152,9 +172,9 @@ p{
     margin-bottom: 300px;
     margin-left: 430px;
 }
-/*kleur*/
+/*kleur-----------------------------------------------------------------------------------------------------------------------------*/
 .kleurgebruik{
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left:50px;
     padding-right:50px;
 }
@@ -164,28 +184,168 @@ p{
 .laatstekleur{
    padding-bottom: 100px;
 }
-/*typo*/
+/*typo----------------------------------------------------------------------------------------------------------------------------------*/
 .typovoorgebruik{
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
-/* foto */
+.merkverhaaltypo{
+      margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+/* foto-------------------------------------------------------------------------------------------------------------------------------- */
 .uitsnedes{
-    margin-top: -250px;
+    margin-top: -30px;
 }
 .quote3{
     font-size:80px;
     color: white;
-    margin-top: -500px;
+    margin-top: -250px;
 }
 .foto-tekst{
     color: white;
     font-size: 16px;
     line-height: 18px;
 }
-
+.fotografie1{
+    margin-top: 50px;
+}
 .fotografiemarge{
-    margin-bottom: -400px;
+    margin-bottom: 50px;
+}
+/*.fotovoorgebruik{
+   margin-top: 50px;
+}*/
+
+/*navigatie-------------------------------------------------------------------------------------------------------------
+.navbar{
+    background-color: $geel;
+   
+}*/
+
+/* STYLEGUIDE ------------- -------------------------------------------------------------*/
+.downloadadv{
+    margin-top: -50px;
+    margin-bottom: 200px;
+    margin-left: 430px;
+}
+.advtitel{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.affichetekst{
+margin-bottom: 100px;
+
+}
+.affiche{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.downloaff{
+    margin-top: -45px;
+    margin-bottom: 100px;
+    
+}
+.folder{
+    margin-top: 200px;
+}
+.foldertop{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.foldertoptekst{
+margin-bottom: 20px;
+}
+.folderfoto{
+    margin-bottom: 250px;
+}
+.downloadfolder{
+    margin-top: 140px;
+    margin-bottom: 200px;
+    float: right;
+}
+.helmtitel{
+ margin-top: 30px;
+    margin-bottom: 30px;
+}
+.helmtekst{
+margin-bottom: 100px;
+}
+.kajaktitel{
+margin-top: 100px;
+    margin-bottom: 30px;
+}
+.kajaktekst{
+ margin-bottom: 70px;
+}
+.downloadkajak{
+    margin-top: -10px;
+    margin-bottom: 100px;
+    margin-left: 430px;
+}
+.downloadhelm{
+    margin-top: 110px;
+    margin-bottom: 100px;
+    float: right;
+}
+.pettitel{
+ margin-top: 100px;
+    margin-bottom: 30px;
+}
+.pettekst{
+margin-bottom: 100px;
+}
+.downloadpet{
+    margin-top: -10px;
+    margin-bottom: 150px;
+    float: right;
+}
+.tastitel{
+ margin-top: 100px;
+    margin-bottom: 30px;
+}
+.tastekst{
+margin-bottom: 100px;
+}
+.downlotas{
+     margin-top: -45px;
+    margin-bottom: 250px;
+}
+.tshirt1 {
+    margin-top: -15px;
+    margin-bottom: 30px;
+}
+
+.downloadshirt{
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-left: 430px;
+}
+.vlagfoto{
+    margin-top: 200px;
+    margin-left: 110px;
+    margin-bottom: -50px;
+}
+.vlagdownload{
+     margin-top: -50px;
+    margin-bottom: 200px;
+    margin-left: 430px;
+}
+.handdoektitel{
+ margin-top: 100px;
+    margin-bottom: 30px;
+}
+.nieuwsbrieffoto{
+   margin-top: 160px;
+    margin-bottom: -60px;
+    margin-left: 350px;  
+}
+.downloadnieuws{
+    margin-top: -50px;
+    margin-bottom: 400px;
+    margin-left: 430px;
 }
 a {
     text-decoration: none;
@@ -227,6 +387,7 @@ main ul {
 main ol {
     list-style: none;  
     margin: 0 0 1em;
+    margin-top: 10px;
     padding: 0;
     counter-reset: i 0;
     li {
