@@ -52,7 +52,7 @@ body {
     color:white;
     background-color:$geel;
     border: none;
-    
+     transition: all 0.7s ease-in-out;
 }
 .btn-primary:hover{
     color:white;
@@ -100,7 +100,7 @@ h3, h4, h5, h6 {
 .quote2{
     font-size:180px;
     color:white;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: -350px;
     line-height: 94px;
     margin-bottom: 100px;
@@ -222,8 +222,45 @@ p{
 .navbar{
     background-color: $geel;
    
-}*/
 
+.navbar .navbar-expand-md .navbar-light .bg-light{
+      background-color: $geel;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}}*/
+
+/* footer-----------------------------------------*/
+.white{
+    color: white;
+}
+.footerafb{
+    margin-top: 50px;
+    margin-left: 130px;
+}
+footer .eerste{
+    margin-top: 50px;
+    
+}
+footer p{
+    line-height: 10px; 
+}
+footer .laatste{
+    margin-bottom: 100px;
+    
+}
+footer a{
+    border-bottom: none;
+}
+footer a:hover{
+    border-bottom: none;
+    opacity: 0.7;
+}
+footer a:active{
+    border-bottom: none;
+    opacity: 0.2;
+    color:$geel;
+}
 /* STYLEGUIDE ------------- -------------------------------------------------------------*/
 .downloadadv{
     margin-top: -50px;
