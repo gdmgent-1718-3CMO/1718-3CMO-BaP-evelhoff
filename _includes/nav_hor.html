@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-md navbar-light bg-light">
+<nav class="navbar navbar-expand-md">
   <div class="container"><!-- <<< verwijder als je navigatie over de ganse breedte wenst -->
-  <img src="images/voorbeelden/LOGO-VZW-TRITON-WIT.png" alt="header" style="width: 15%;">
+ <a href="{{ site.baseurl }}/index" ><img src="{{ site.baseurl }}/images/voorbeelden/LOGO-VZW-TRITON-WIT.png" alt="header" style="width: 35%;"></a>
      <!--   <a class="navbar-brand" href="#">MyClient</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -8,7 +8,7 @@
 
         <div class="collapse navbar-collapse" id="mainNavigation">
 
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
         {%- for nav-item in site.data.navigation %}
         
             {%- capture item_classes %}{% if page.url contains nav-item.permalink %}active{% endif %}{% endcapture %}
