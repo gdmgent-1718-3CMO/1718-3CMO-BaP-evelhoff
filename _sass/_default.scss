@@ -32,7 +32,7 @@ body {
     margin-bottom: 100px;
 }
 .logohome{
-    margin-top: 100px;
+    margin-top:90px;
 }
 
 .logohometekst, .typohometekst{
@@ -108,13 +108,17 @@ h3, h4, h5, h6 {
     font-size:180px;
     color:white;
     font-weight: 700;
-    margin-top: -350px;
+    margin-top: -380px;
     line-height: 94px;
     margin-bottom: 100px;
+}
+.beeldmerk{
+    margin-top: -100px;
 }
 .leesmeerlogo{
       margin-top: 50px;
     margin-bottom: 80px;
+    margin-left: 5px;
 }
 .blauwachter{
     background-color:$blauw;
@@ -134,8 +138,8 @@ h3, h4, h5, h6 {
 hr{
     height: 0px;
     color:$geel;
-    margin-top: 150px;
-    margin-bottom: 200px;
+    margin-top: 130px;
+    margin-bottom: 100px;
     border:none;
     border-top:2px solid $geel;
         
@@ -159,7 +163,7 @@ hr{
     padding-top: 50px;
     }
 .alineaonder{
-    margin-top: 110px;
+    margin-top: 160px;
 }
 .logogebruik{
     margin-top: 50px;
@@ -175,9 +179,9 @@ p{
     color: #6f6f6e;
 }
 .download{
-    margin-top: -80px;
-    margin-bottom: 300px;
-    margin-left: 430px;
+    margin-top: -70px;
+    margin-bottom: 200px;
+    /*margin-left: 430px;*/
 }
 /*kleur-----------------------------------------------------------------------------------------------------------------------------*/
 .kleurgebruik{
@@ -200,6 +204,11 @@ p{
       margin-top: 100px;
     margin-bottom: 30px;
 }
+.leesmeertypo{
+     margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 15px;
+}
 
 /* foto-------------------------------------------------------------------------------------------------------------------------------- */
 .uitsnedes{
@@ -209,11 +218,13 @@ p{
     font-size:80px;
     color: white;
     margin-top: -250px;
+    margin-left: 15px;
 }
 .foto-tekst{
     color: white;
     font-size: 16px;
     line-height: 18px;
+    margin-left: 15px;
 }
 .fotografie1{
     margin-top: 50px;
@@ -221,21 +232,12 @@ p{
 .fotografiemarge{
     margin-bottom: 50px;
 }
-/*.fotovoorgebruik{
-   margin-top: 50px;
-}*/
-
-/*navigatie-------------------------------------------------------------------------------------------------------------
-.navbar{
-    background-color: $geel;
-   
-
-.navbar .navbar-expand-md .navbar-light .bg-light{
-      background-color: $geel;
+.fotolinks{
+    margin-right: 5px;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-    color: white;
-}}*/
+.fotorechts{
+    margin-left: 5px;
+}
 
 /* footer-----------------------------------------*/
 .white{
@@ -271,16 +273,16 @@ footer a:active{
 /* STYLEGUIDE ------------- -------------------------------------------------------------*/
 
 .downloadadv{
-    margin-top: -50px;
+    margin-top: 20px;
     margin-bottom: 200px;
-    margin-left: 430px;
+  
 }
 .advtitel{
     margin-top: 80px;
     margin-bottom: 30px;
 }
 .affichetekst{
-margin-bottom: 100px;
+margin-bottom: 147px;
 
 }
 .affiche{
@@ -312,23 +314,23 @@ margin-bottom: 20px;
     float: right;
 }
 .helmtitel{
- margin-top: 30px;
+ margin-top: 80px;
     margin-bottom: 30px;
 }
 .helmtekst{
 margin-bottom: 100px;
 }
 .kajaktitel{
-margin-top: 100px;
+margin-top: 70px;
     margin-bottom: 30px;
 }
 .kajaktekst{
  margin-bottom: 70px;
 }
 .downloadkajak{
-    margin-top: -10px;
+    margin-top: -20px;
     margin-bottom: 100px;
-    margin-left: 430px;
+    
 }
 .downloadhelm{
     margin-top: 110px;
@@ -364,9 +366,9 @@ margin-bottom: 100px;
 }
 
 .downloadshirt{
-    margin-top: -50px;
+    margin-top: -70px;
     margin-bottom: 100px;
-    margin-left: 430px;
+    
 }
 .vlagfoto{
     margin-top: 200px;
@@ -376,26 +378,36 @@ margin-bottom: 100px;
 .vlagdownload{
      margin-top: -50px;
     margin-bottom: 200px;
-    margin-left: 430px;
+    
 }
 .handdoektitel{
  margin-top: 100px;
     margin-bottom: 30px;
 }
+.vesttitel{
+ margin-top: 50px;
+ margin-bottom: 30px
+}
+.vestdownload{
+    margin-top: 30px;
+}
+.vest{
+    padding-top: 100px;
+}
 .nieuwsbrieffoto{
    margin-top: 160px;
     margin-bottom: -60px;
-    margin-left: 350px;  
+    margin-left: 310px;  
 }
 .downloadnieuws{
     margin-top: -50px;
-    margin-bottom: 400px;
-    margin-left: 430px;
+    margin-bottom: 200px;
+    
 }
 a {
     text-decoration: none;
-    color: $body-link;
-    border-bottom: solid 1px $body-link;
+    color: $blauw;
+    border-bottom: solid 1px $blauw;
     &:hover{
         color: $body-link;
         text-decoration: none;
