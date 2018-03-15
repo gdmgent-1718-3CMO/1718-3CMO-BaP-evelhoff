@@ -329,6 +329,11 @@
             $image.height(imageHeight);
           }
         }
+
+          
+        
+          
+        
       }
       self.sizeContainer($image.width(), $image.height());
     };

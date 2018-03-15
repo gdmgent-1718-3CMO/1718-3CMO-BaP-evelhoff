@@ -11,6 +11,12 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    var i = window.pageYOffset;
+    var int = setInterval(function(){
+        i = i-30;
+        document.body.scrollTop = i; // For Safari
+        document.documentElement.scrollTop = i; // For Chrome, Firefox, IE and Opera
+        if(window.pageYOffset <= 0) { clearInterval(int); }
+    });
+    
 }
